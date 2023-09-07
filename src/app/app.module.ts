@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import {HelloComponent} from './hello.component'
 import {MenuComponent} from './components/menu.component'
 import { Button } from './components/button.component'
+import {EntryDataComponent} from './components/entry-data.component'
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { Button } from './components/button.component'
     AppComponent,
     HelloComponent,
     MenuComponent,
-    Button
+    Button,
+    EntryDataComponent
   ],
   imports: [
     BrowserModule,
